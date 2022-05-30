@@ -1,0 +1,1 @@
+select loan_number from loan where amount > 1300 or amount < 750;

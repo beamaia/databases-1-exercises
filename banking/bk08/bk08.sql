@@ -1,0 +1,1 @@
+select customer_name from customer c where upper(c.customer_city) like 'P%' or upper(c.customer_name) like '%O%';
